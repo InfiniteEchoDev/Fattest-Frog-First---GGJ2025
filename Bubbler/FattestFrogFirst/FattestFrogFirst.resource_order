@@ -509,6 +509,7 @@
     {"name":"sBubble_Sheen_1","order":11,"path":"sprites/sBubble_Sheen_1/sBubble_Sheen_1.yy",},
     {"name":"scribble_fallback_bulletpoint","order":15,"path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},
     {"name":"sFly_AppleFly_ScaleDown","order":3,"path":"sprites/sFly_AppleFly_ScaleDown/sFly_AppleFly_ScaleDown.yy",},
+    {"name":"sFly_Brussel","order":5,"path":"sprites/sFly_Brussel/sFly_Brussel.yy",},
     {"name":"sFly_CarrotCritter","order":2,"path":"sprites/sFly_CarrotCritter/sFly_CarrotCritter.yy",},
     {"name":"thought_bubble_2","order":14,"path":"sprites/thought_bubble_2/thought_bubble_2.yy",},
   ],

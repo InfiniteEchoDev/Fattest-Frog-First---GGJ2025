@@ -8,9 +8,39 @@ var randomNum = random(100);
 
 myScale = 0.5;
 
+ 
 if (randomNum > 66) {
-	sprite_index = sFly_CarrotCritter;
-	myScale = 0.5;
+	
+	// only have brussel flies come in after the frog has grown twice
+	var frogEvoStage = 0;
+	for (i = 0; i < instance_number(oFrog); i++) {
+		tempFrog =  instance_find(oFrog,i);
+		if instance_exists(tempFrog) {
+			if (tempFrog.frogEvolutionStage > frogEvoStage) {
+				frogEvoStage = tempFrog.frogEvolutionStage;
+			}
+		}
+	}
+	
+	if (frogEvoStage >= 3) {
+		
+		if (random(100) > 50) {
+			sprite_index = sFly_CarrotCritter;
+			myScale = 0.5;	
+		} else {
+			sprite_index = sFly_Brussel;
+			myScale = 0.5;	
+		}
+		
+		
+	} else {
+		
+		// earlier frog evolution
+		sprite_index = sFly_CarrotCritter;
+		myScale = 0.5;
+	}
+	
+	
 } else if (randomNum > 33) {
 	sprite_index = sBananaFruitFly;
 	myScale = 0.5;

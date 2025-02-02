@@ -617,6 +617,7 @@
     {"id":{"name":"sBubble_Sheen_1","path":"sprites/sBubble_Sheen_1/sBubble_Sheen_1.yy",},},
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
     {"id":{"name":"sFly_AppleFly_ScaleDown","path":"sprites/sFly_AppleFly_ScaleDown/sFly_AppleFly_ScaleDown.yy",},},
+    {"id":{"name":"sFly_Brussel","path":"sprites/sFly_Brussel/sFly_Brussel.yy",},},
     {"id":{"name":"sFly_CarrotCritter","path":"sprites/sFly_CarrotCritter/sFly_CarrotCritter.yy",},},
     {"id":{"name":"sLilyPad","path":"sprites/sLilyPad/sLilyPad.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
